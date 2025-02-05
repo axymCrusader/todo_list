@@ -18,9 +18,9 @@ This is a Todo List application built with FastAPI, SQLAlchemy, and JWT authenti
    DB_HOST=db
    DB_PORT=5432
 
-   SENTRY_URL=<your_sentry_url>  # Optional
+   SENTRY_URL=<your_sentry_url>  # Optional if not to be left blank
 
-   JWT_SECRET_KEY=<your_jwt_secret_key>  # The key used to sign JWT tokens
+   JWT_SECRET_KEY=<your_jwt_secret_key>
    ```
 
    Replace the placeholder values with your actual credentials and configuration settings.
